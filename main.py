@@ -18,7 +18,7 @@ global indexes
 
 
 def generate_index():
-    index = random.randint(0, len(data_dict))
+    index = random.randint(0, len(data_dict)-1)
     return index
 
 
